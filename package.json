@@ -1,0 +1,37 @@
+{
+  "name": "tradier",
+  "version": "1.0.0",
+  "description": "Node generic server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://chasgharali071@bitbucket.org/chasgharali071/back-gen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/chasgharali071/back-gen#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "calculate-correlation": "^1.2.2",
+    "compute-covariance": "^1.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mathjs": "^9.4.4",
+    "mongoose": "^5.13.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "node-datetime": "^2.1.2",
+    "portfolio-allocation": "0.0.11",
+    "portfolio-analytics": "0.0.4",
+    "serve-favicon": "^2.5.0",
+    "sha1": "^1.1.1",
+    "util": "^0.12.4"
+  }
+}
